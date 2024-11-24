@@ -4,9 +4,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, CallbackQueryHandler, filters
 import requests
 
-BOT_TOKEN = "7796982583:AAG70u8SP552SbAy3GBGu9W-e0TGaLSEgwc"
-CHANNEL_1_ID = "@hikvik"
-CHANNEL_2_ID = "@hikvik"
+BOT_TOKEN = "Token here"
+CHANNEL_1_ID = "Id"
+CHANNEL_2_ID = "Id"
 
 
 USER_DATA_FILE = 'users_data.txt'
@@ -14,7 +14,7 @@ USER_DATA_FILE = 'users_data.txt'
 DOWNLOAD_DIR = "dowloads"
 os.makedirs(DOWNLOAD_DIR,exist_ok=True)
 
-ADMIN_ID = [6393985738]
+ADMIN_ID = [User id]
 
 
 def save_user_data(user_id,username):
